@@ -22,9 +22,11 @@
           </p>
         {% endif %}
 
-        <div class="description">
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.bio %}
+        <div class="bio">
+            <p>{{site.bio}}</p>
         </div>
+        {% endif %}
 
         {% include social.html %}
       </header>
