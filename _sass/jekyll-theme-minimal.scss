@@ -224,11 +224,7 @@ footer {
     display:inline;
   }
 
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
+  
 }
 
 @media print, screen and (max-width: 720px) {
@@ -269,4 +265,36 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+header h1,
+header h3 {
+    text-align: center;
+}
+
+header h3 {
+    font: Helvetica;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+.description {
+    margin-left: 10%;
 }
