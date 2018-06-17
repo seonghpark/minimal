@@ -56,7 +56,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:1160px;
   margin:0 auto;
 }
 
@@ -172,7 +172,7 @@ strong {
 }
 
 section {
-  width:500px;
+  width:800px;
   float:right;
   padding-bottom:50px;
 }
@@ -190,13 +190,13 @@ hr {
 
 footer {
   width:270px;
-  float:left;
+  float:right;
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1060px) {
 
   div.wrapper {
     width:auto;
@@ -267,35 +267,29 @@ footer {
   }
 }
 
-header h1,
-header h3 {
-    text-align: center;
-}
-
-header h3 {
-    font: Helvetica;
-    margin-bottom: 10px;
+header h1 {
+  text-align: center;
 }
 
 header img {
-    width: 125px;
-    border-radius: 50%;
+  width: 125px;
+  border-radius: 50%;
 }
 
 header ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #828282;
-    padding-right: 5px;
-    vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #828282;
+  padding-right: 5px;
+  vertical-align: text-top;
 }
 
 .bio {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
